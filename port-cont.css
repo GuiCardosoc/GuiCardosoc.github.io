@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+/*CSS portfolio*/
+body{
+    font-family: "Roboto", monospace;
+    width: 100%;
+    height: 130vh;
+    background-color: #52545d;
+}
+
+.h1port {
+    font-size: 50px;
+    color: #eddc54;
+    text-shadow: 2px 2px #4f4f4f;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.projetos-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 50 px;
+
+}
+
+.mobile{
+    width: 300px;
+    padding-right: 30px;
+    
+}
+
+.pc {
+    width: 700px;
+}
+
+#pPort{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 25px;
+    text-shadow: 2px 2px #000000;
+}
+
+
+
+/*CSS contatos*/
+*{
+  margin: 0;
+  padding: 0;  
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: #282a35;
+    
+    
+}
+
+#menu{
+    display: flex;
+    list-style: none;
+    font-size: 15px;
+    justify-content: space-evenly;
+}
+
+li{
+    margin-top: 40px;
+    color: #f8ea7e;
+    font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    transition: 1s;
+    text-shadow: 2px 2px #4f4f4f;
+
+}
+
+/*apos colocar a tag <a> o texto ficava azul, conseguir arrumar desta maneira*/
+li a{
+    text-decoration: none;
+    color: #eddc54;
+    
+}
+
+li a:hover{
+text-decoration: none;
+color: #eddc54;
+}
+
+li:hover{
+color: #eddc54;
+font-size: 25px;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: #52545d;
+    
+}
+
+form{
+    padding: 100px 0 0 25px;
+    font-size: 25px;
+    font-family: "Roboto", monospace;
+    color: #eddc54;
+    text-shadow: 2px 2px #34391b;
+    
+    
+}
+
+.title{
+    font-family: "Roboto", monospace;
+    
+}
+
+.h1cont{
+    color: #eddc54;
+    padding: 50px 0 0 25px;
+    font-size: 50px;
+    text-shadow: 2px 2px #34391b;
+}
+
+.ptcont{
+ color: white;
+ padding-left: 25px;
+ font-size: 20px;
+ text-shadow: 2px 2px #000000;
+}
+
+button {
+    height:30px;
+    width: 100px;
+    font-family: "Roboto", monospace;
+    font-size: 20px;
+}

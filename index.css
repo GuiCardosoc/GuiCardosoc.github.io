@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+/*Estilização da barra de navegação*/
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: #282a35;
+    
+    
+}
+
+#menu{
+    display: flex;
+    list-style: none;
+    font-size: 15px;
+    justify-content: space-evenly;
+}
+
+li{
+    margin-top: 40px;
+    color: #f8ea7e;
+    font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    transition: 1s;
+    text-shadow: 2px 2px #4f4f4f;
+
+}
+
+/*apos colocar a tag <a> o texto ficava azul, conseguir arrumar desta maneira*/
+li a{
+    text-decoration: none;
+    color: #eddc54;
+    
+}
+
+li a:hover{
+text-decoration: none;
+color: #eddc54;
+}
+
+li:hover{
+color: #eddc54;
+font-size: 25px;
+}
+
+.txt{
+    color: white;
+    font-size: 90px;
+    font-family: "Josefin Sans", sans-serif;
+    text-shadow: 2px 2px #000000;
+}
+
+main{
+    height: 100vh;
+    background-color: #282a35;
+}
+
+.o-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+#oi{
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    font-size: 150px;
+    margin-top: 100px;
+}
+
+.b-container{
+    display: flex;
+    justify-content: center;
+}
+
+#bem-v{
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    font-size: 100px;
+}
+
+.p-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+#port{
+    color: #eddc54;
+    font-family: "Roboto Mono", monospace;
+    font-size: 50px;
+}
+
+
